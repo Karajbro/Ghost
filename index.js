@@ -22,7 +22,7 @@ if (process.env.FIREBASE_SERVICE_ACCOUNT) {
 
 const databaseURL =
   process.env.FIREBASE_DATABASE_URL ||
-  "https://ownc-de16d-default-rtdb.firebaseio.com";
+  "https://ghost-1031c-default-rtdb.firebaseio.com";
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
