@@ -4,7 +4,7 @@ const http = require("http");
 const socketIo = require("socket.io");
 const cors = require("cors");
 const bodyParser = require("body-parser");
- 
+
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, { cors: { origin: "*" } });
